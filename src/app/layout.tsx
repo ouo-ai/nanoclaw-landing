@@ -64,6 +64,11 @@ export default function RootLayout({
             }),
           }}
         />
+        <script
+          defer
+          data-domain="nanoclaw.bot"
+          src="https://plau.origai.net/js/script.js"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
